@@ -8,6 +8,7 @@
     ./modules/claude.nix
     ./modules/pi.nix
     ./modules/opencode.nix
+    ./modules/ssh.nix
     ./modules/packages.nix
   ];
 

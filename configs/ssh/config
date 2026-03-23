@@ -1,0 +1,10 @@
+Host sherlock
+    HostName sherlock.mattzcarey.com
+    User pi
+    IdentityFile ~/.ssh/id_ed25519
+    ProxyCommand cloudflared access ssh --hostname %h
+
+Host sherlock.local
+    HostName 192.168.1.156
+    User pi
+    IdentityFile ~/.ssh/id_ed25519
